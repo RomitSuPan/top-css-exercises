@@ -17,3 +17,9 @@ button {
   padding: 16px 24px;
   text-align: center;
 }
+
+#transition-container button:hover {
+  animation-duration: 2000ms;
+  transform: scale(1.5);
+  transition: .5s;
+}
