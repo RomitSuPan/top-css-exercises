@@ -1,0 +1,19 @@
+.p-class {
+    background-color: rgb(251, 184, 176);
+}
+
+.p-class-large{
+    font-size: x-large;
+}
+
+#id-1 {
+    color: #1156be;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#id-2 {
+    background-color: greenyellow;
+    font-weight: bold;
+    font-size: x-large;
+}
