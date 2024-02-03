@@ -1,6 +1,44 @@
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+  padding: 5px;
+}
+
+.left-links {
+  display: flex;
+  background-color: green;
+  flex: auto;
+  justify-content: start;
+}
+
+.right-links {
+  display: flex;
+  background-color: greenyellow;
+  flex: auto;
+  justify-content: end;
+}
+
+.left-links > ul,
+.right-links > ul {
+  display: flex;
+}
+
+.left-links > ul > li {
+  margin-left: 5px;
+}
+
+.right-links > ul > li {
+  margin-right: 5px;
 }
 
 .logo {
