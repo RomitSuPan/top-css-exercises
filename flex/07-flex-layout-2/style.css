@@ -6,8 +6,13 @@ body {
 
 .header {
   height: 72px;
+  display: flex;
   background: darkmagenta;
   color: white;
+  font-size: 32px;
+  font-weight: 900;
+  align-items: center;
+  padding-left: 10px;
 }
 
 .footer {
@@ -26,4 +31,76 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+.full-body-flexbox {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.body-container-flexbox {
+  display: flex;
+  width: 100%;
+  flex: 1;
+  min-height: 100%;
+}
+
+.body-container-main {
+  display: flex;
+  gap: 25px;
+  width: 90%;
+  padding: 32px;
+  flex-wrap: wrap;
+}
+
+.body-container-main > .card {
+  width: auto;
+  max-width: 40vh;
+  height: auto;
+  max-height: 50vh;
+  padding: 10px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  padding: 16px;
+  gap: 10px;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: lightblue;
+}
+
+a:active {
+  color: pink;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  background-color: rgb(240, 235, 235);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 10px;
 }
